@@ -21,9 +21,10 @@ export default plumeTheme({
       // 是否默认启用评论
       comment: true,
       repo: 'shylock-wu/blog',
-      repoId: 'Your_RepoId',
-      category: 'Your_Category',
-      categoryId: 'Your_CategoryId',
+      repoId: 'R_kgDOLpOSPQ',
+      category: 'Announcements',
+      categoryId: 'DIC_kwDOLpOSPc4CebZq',
+      mapping: 'pathname',
     }
   }
 })

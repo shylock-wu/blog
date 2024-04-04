@@ -7,8 +7,8 @@ export default definePlumeNotesItemConfig({
     {
       dir: 'JS',
       items: [
-        '闭包'
-      ]
-    }
+        '闭包',
+      ],
+    },
   ],
 })

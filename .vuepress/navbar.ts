@@ -15,9 +15,9 @@ export default defineNavbarConfig([
       {
         text: 'Vite',
         icon: 'vscode-icons:file-type-vite',
-        link: "https://vitejs.cn/"
-      }
-    ]
+        link: 'https://vitejs.cn/',
+      },
+    ],
   },
   {
     text: '笔记',
@@ -28,7 +28,7 @@ export default defineNavbarConfig([
         icon: 'codicon:comment-unresolved',
         link: '/interview-question/',
         activeMatch: '^/note/interview-question/',
-      }
-    ]
-  }
+      },
+    ],
+  },
 ])

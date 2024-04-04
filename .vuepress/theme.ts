@@ -1,7 +1,7 @@
-
 import { plumeTheme } from 'vuepress-theme-plume'
 import navbar from './navbar.js'
-import notes from './notes';
+import notes from './notes'
+
 export default plumeTheme({
   docsDir: 'src',
 
@@ -17,7 +17,7 @@ export default plumeTheme({
   plugins: {
     comment: {
       // 服务提供商
-      provider: "Giscus",
+      provider: 'Giscus',
       // 是否默认启用评论
       comment: true,
       repo: 'shylock-wu/blog',
@@ -25,6 +25,6 @@ export default plumeTheme({
       category: 'Announcements',
       categoryId: 'DIC_kwDOLpOSPc4CebZq',
       mapping: 'pathname',
-    }
-  }
+    },
+  },
 })

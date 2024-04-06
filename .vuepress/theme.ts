@@ -3,7 +3,11 @@ import navbar from './navbar.js'
 import notes from './notes'
 
 export default plumeTheme({
+  logo: '/images/avatar.jpg',
+  hostname: 'https://blog.jsfather.cn',
+  repo: 'https://github.com/shylock-wu/blog',
   docsDir: 'src',
+  contributors: false,
 
   navbar,
   notes,
@@ -14,6 +18,11 @@ export default plumeTheme({
     description: '不求有功于社稷 但求无过于本心',
     circle: true, // 是否为圆形头像
   },
+  social: [
+    { icon: 'github', link: 'https://github.com/shylock-wu' },
+  ],
+  footer: { copyright: 'Copyright © 2024-present shylock' },
+
   plugins: {
     comment: {
       // 服务提供商

@@ -17,6 +17,11 @@ export default defineNavbarConfig([
         icon: 'vscode-icons:file-type-vite',
         link: 'https://vitejs.cn/',
       },
+      {
+        text: 'Vue',
+        icon: 'vscode-icons:file-type-vue',
+        link: 'https://cn.vuejs.org/',
+      },
     ],
   },
   {

@@ -35,5 +35,8 @@ export default plumeTheme({
       categoryId: 'DIC_kwDOLpOSPc4CebZq',
       mapping: 'pathname',
     },
+    markdownPower: {
+      pdf: true,
+    },
   },
 })

@@ -36,4 +36,16 @@ export default defineNavbarConfig([
       },
     ],
   },
+  {
+    text: '更多',
+    icon: 'icon-park-solid:more-three',
+    items: [
+      {
+        text: '友情链接',
+        icon: 'icon-park-solid:friends-circle',
+        link: '/friend-link/',
+        activeMatch: '^/friend-link/',
+      },
+    ],
+  },
 ])

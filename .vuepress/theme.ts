@@ -5,22 +5,22 @@ import notes from './notes'
 export default plumeTheme({
   logo: '/images/avatar.jpg',
   hostname: 'https://blog.jsfather.cn',
-  repo: 'https://github.com/shylock-wu/blog',
+  docsRepo: 'https://github.com/shylock-wu/blog',
   docsDir: 'src',
   contributors: false,
 
   navbar,
   notes,
 
-  avatar: {
-    url: '/images/avatar.jpg',
+  profile: {
+    avatar: '/images/avatar.jpg',
     name: 'Shylock',
     description: '不求有功于社稷 但求无过于本心',
     circle: true, // 是否为圆形头像
+    location: '杭州，中国',
+    organization: 'xxx公司',
   },
-  social: [
-    { icon: 'github', link: 'https://github.com/shylock-wu' },
-  ],
+  social: [{ icon: 'github', link: 'https://github.com/shylock-wu' }],
   footer: { copyright: 'Copyright © 2024-present shylock' },
 
   plugins: {

@@ -40,6 +40,12 @@ export default defineNavbarConfig([
         link: '/defensive-css/',
         activeMatch: '^/defensive-css/',
       },
+      {
+        text: '常用命令',
+        icon: 'emojione:memo',
+        link: '/common-commands/',
+        activeMatch: '^/common-commands/',
+      },
     ],
   },
   {

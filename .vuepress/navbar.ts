@@ -58,6 +58,12 @@ export default defineNavbarConfig([
         link: '/friend-link/',
         activeMatch: '^/friend-link/',
       },
+      {
+        text: 'cf',
+        icon: 'icon-park-solid:friends-circle',
+        link: '/cloudflare/',
+        activeMatch: '^/cloudflare/',
+      },
     ],
   },
 ])
